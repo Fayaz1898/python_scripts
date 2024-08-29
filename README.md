@@ -12,7 +12,8 @@ This repository contains scripts for two tasks:
 . Ensure Python 3.x (python 3 or latest version) is installed on your system.
 
 . Install the required Python libraries using pip:
-pip install requests or pip3 install requests
+
+   pip install requests or pip3 install requests
 
 ## Setup
 
@@ -21,11 +22,13 @@ pip install requests or pip3 install requests
 ---
 
 1. Clone this repository to your local machine
+
    git clone https://github.com/Fayaz1898/python_scripts.git
 
 2. go to folder /python_scripts/task
 
 3. For fetching data from an API endpoint and populates it into a CSV file run the following command
+
    python3 fetch_universities.py
 
 ## This will generate a .csv file with data fetched from the API.##
@@ -35,6 +38,7 @@ pip install requests or pip3 install requests
 ---
 
 1. In same folder run update_universities.py by running below command
+
    python3 update_universities.py
 
 ## This will read the generated csv file which is mentioned in the script and update or add entries via a REST API endpoint if needed.And will fetch the data and print it to the console you can verify it by checking the csv file.
